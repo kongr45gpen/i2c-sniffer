@@ -31,7 +31,7 @@ as fast as possible.
 - **nucleo_mpu6050.ioc**: Open this file inside STM32CubeMX to edit the project.
 
 ## Screenshot
-![I2C Sniffer serial output screenshot](i2c_sniffer/screenshot.png)
+![I2C Sniffer serial output screenshot](screenshot.png)
   
 ## Schematic
-![Project Schematic](i2c_sniffer/schematic.png)
+![Project Schematic](schematic.png)
