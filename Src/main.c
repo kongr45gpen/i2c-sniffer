@@ -114,7 +114,7 @@ int main(void)
   printf("\r\n");
   printf("\e[36mCyan\e[39m: Register (hex) \r\n");
   printf("\e[33m   R\e[39m:   Read from master \r\n");
-  printf("\e[33m   W\e[39m:  Write to   master \r\n");
+  printf("\e[33m   W\e[39m:  Write   to slave \r\n");
   printf("\r\n");
   printf("\e[39mWhite\e[39m: Data (hex) \r\n");
   printf("\e[33m    A\e[39m:   ACK (acknowledged) \r\n");
