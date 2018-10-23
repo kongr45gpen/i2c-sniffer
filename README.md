@@ -28,7 +28,7 @@ as fast as possible.
 
 ## Important files
 - **Src/main.c**: The source code of the project
-- **nucleo_mpu6050.ioc**: Open this file inside STM32CubeMX to edit the project.
+- **i2c_sniffer.ioc**: Open this file inside STM32CubeMX to edit the project.
 
 ## Screenshot
 [![I2C Sniffer serial output screenshot](screenshot.png)](https://github.com/kongr45gpen/asat-cubesat-docs/raw/master/random-stuff/i2c_sniffer/screenshot.png)
