@@ -112,7 +112,7 @@ int main(void)
   printf("\e[32m Left [\e[39m: (re)START \r\n");
   printf("\e[31mRight ]\e[39m:     STOP \r\n");
   printf("\r\n");
-  printf("\e[36mCyan\e[39m: Register (hex) \r\n");
+  printf("\e[36mCyan\e[39m: Address (hex) \r\n");
   printf("\e[33m   R\e[39m:   Read from master \r\n");
   printf("\e[33m   W\e[39m:  Write   to slave \r\n");
   printf("\r\n");
