@@ -15,6 +15,7 @@ It's useful for debugging faulty networks.
 ## Notes
 - This project was built in STM32CubeMX for the Atollic TrueStudio IDE. If you load the project in STM32CubeMX, you can export
 it to use any other IDE of your choice.
+  - You can [download the .elf binary file](https://github.com/kongr45gpen/i2c-sniffer/releases) and immediately upload it to the microcontroller using [STM32CubeProg](https://www.st.com/en/development-tools/stm32cubeprog.html) or [OpenOCD](http://openocd.org/).
 - This project sets the processor clock to 72 MHz, the highest one achievable, so that the I2C data can be processed
 as fast as possible.
 - The serial output contains colours. If your terminal doesn't support colours, you might see garbled characters.
