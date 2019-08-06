@@ -6,6 +6,7 @@
   - **PB8**: SCL
   - **PB9**: SDA
 - **Serial baud rate**: 3 000 000 bits/s
+- **Additional required hardware**: [FTDI232](https://www.sparkfun.com/products/12731) (or similar) USB-to-Serial converter
   
 ## Project Purpose
 This project is built to connect to any I2C network and process any data sent through it in a transparent way.
@@ -24,6 +25,8 @@ as fast as possible.
   ```bash
   minicom -s -c on -b 3000000 -D /dev/ttyUSB0
   ```
+  
+  You can also use [RealTerm](https://sourceforge.net/projects/realterm/) on Windows.
 - The HAL driver is used, but all the necessary driver files are included in the *Drivers* folder.
 
 ## Important files
