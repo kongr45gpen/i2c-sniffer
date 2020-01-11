@@ -1,5 +1,5 @@
 # I2C sniffer project
-- **Board:** STM32F103C8T6 "Blue Pill"
+- **Board:** [STM32F103C8T6 "Blue Pill"](https://os.mbed.com/users/hudakz/code/STM32F103C8T6_Hello/)
 - **Pins used:**
   - **PA9**: TX (connect to serial RX)
   - **PA10**: RX (connect to serial TX)
@@ -39,3 +39,7 @@ as fast as possible.
   
 ## Schematic
 [![Project Schematic](schematic.png)](https://github.com/kongr45gpen/i2c-sniffer/raw/master/schematic.png)
+
+## Frequently Asked Questions
+*Q*: Where can I buy the required board for this application?
+*A*: The board needed is the small development board ["Blue Pill"](https://os.mbed.com/users/hudakz/code/STM32F103C8T6_Hello/) for an STM32F1 microcontroller. It costs about 2$ and can be found on common marketplaces like [ebay](https://www.ebay.com/sch/i.html?_nkw=stm32f103c8t6) or [AliExpress](https://www.aliexpress.com/wholesale?SearchText=stm32f103c8t6) (search for `STM32F103C8T6`). When getting started with these chips, you will also need an **ST-Link** device (~2$) available at the same sites, in order to program it.
